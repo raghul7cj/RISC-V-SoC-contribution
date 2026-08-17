@@ -1,2 +1,1 @@
-# RISCOF-Verification-setup-for-RV32IMZicsr
-RISCOF framework setup, and Python automation scripts along with tests 
+# Tapeout contribution to RISC V Sonic MCU - IIITA Allahabad
