@@ -1,0 +1,133 @@
+TOOL:	xrun(64)	24.09-s001: Started on Nov 13, 2026 at 09:03:17 IST
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+xrun(64): 24.09-s001: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmvlog: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+file: /tmp/riscforge-xcelium/csr-unit-lean_20261113T034327Z_511cd89e/inputs/ips/riscv_core/rtl/csr_regfile.v
+	module worklib.csr_regfile:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/csr-unit-lean_20261113T034327Z_511cd89e/inputs/ips/Verification/tb_csr_lean/tb_csr_unit_lean.sv
+	module worklib.tb_csr_unit_lean:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmelab: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		$unit_0x2ededf6d
+		tb_csr_unit_lean
+
+	Extracting FSMs for coverage:
+		worklib.csr_regfile
+		worklib.tb_csr_unit_lean
+	Total FSMs extracted = 0
+	Building instance overlay tables: .................... Done
+	Enabling instrumentation for coverage types: block expression FSM toggle functional
+xmelab: *W,COVDCL: By default expression coverage is scored only for Verilog logical operators (|| and &&) and VHDL logical operators (OR, AND, NOR, and NAND), and is scored only in condition expressions. To score coverage for other operators and for expressions in other statements, use the "set_expr_coverable_operators" and "set_expr_coverable_statements" coverage configuration file commands with suitable options at elaboration.
+	Generating native compiled code:
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+		worklib.csr_regfile:v <0x0cadd744>
+			streams:  32, words: 27732
+		worklib.tb_csr_unit_lean:sv <0x11c375ce>
+			streams:  35, words: 81866
+		worklib.\$unit_0x2ededf6d :compilation_unit <0x7da6d4f7>
+			streams:  31, words: 35890
+  int pass_count = 0;
+               |
+xmelab: *W,COVUTA (./ips/Verification/tb_csr_lean/tb_csr_unit_lean.sv,93|15): Toggle coverage is not supported for SystemVerilog integer, real array, string, dynamic array, sparse memory and reference ports. It is also not supported for VHDL multi-dimensional array and array of record. There may also be other such objects in the design.
+	Building instance specific data structures.
+xmelab: *W,CGPIDF: Covergroup "per_instance" option , by default, is set as 0.
+xmelab: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                     Instances  Unique
+		Modules:                     2       2
+		Registers:                  93     123
+		Scalar wires:               14       -
+		Vectored wires:             18       -
+		Always blocks:               5       5
+		Initial blocks:              4       4
+		Cont. assignments:           4      10
+		Pseudo assignments:         21       -
+		Covergroup Instances:        0       4
+		Compilation units:           1       1
+		SV Class declarations:       2       2
+		SV Class specializations:    2       2
+		Process Clocks:              2       1
+		Simulation timescale:      1ps
+	Writing initial simulation snapshot: worklib.tb_csr_unit_lean:sv
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmsim: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+Loading snapshot worklib.tb_csr_unit_lean:sv .................... Done
+xcelium> source /home/install/XCELIUM2409/tools/xcelium/files/xmsimrc
+xcelium> run
+
+=======================================================
+ STARTING LEAN CSR & TRAP UNIT VERIFICATION REGRESSION
+=======================================================
+
+[SUITE 1] Reset & Power-On State Verification
+
+[SUITE 2] WARL Bitmask Verification
+
+[SUITE 3] Trap Entry and MRET Privilege Stack Shifts
+
+[SUITE 4] Port Collision Checks
+
+=======================================================
+ CSR & TRAP UNIT VERIFICATION COMPLETED
+ Total Passing Checks: 115
+ Total Failures:       0
+=======================================================
+
+>>> TEST STATUS: ALL PASS <<<
+
+Simulation complete via $finish(1) at time 1111 NS + 0
+./ips/Verification/tb_csr_lean/tb_csr_unit_lean.sv:415     $finish;
+xcelium> exit
+xmsim: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+xmsim: *W,CGDEFN: Default name "tb_csr_unit_lean.cov.cg_csr_access" will be generated for covergroup instance "cg_csr_access" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_csr_lean/csr_functional_coverage.sv, 37.
+xmsim: *W,CGDEFN: Default name "tb_csr_unit_lean.cov.cg_warl_fields" will be generated for covergroup instance "cg_warl_fields" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_csr_lean/csr_functional_coverage.sv, 66.
+xmsim: *W,CGDEFN: Default name "tb_csr_unit_lean.cov.cg_trap_metadata" will be generated for covergroup instance "cg_trap_metadata" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_csr_lean/csr_functional_coverage.sv, 94.
+xmsim: *W,CGDEFN: Default name "tb_csr_unit_lean.cov.cg_port_collisions" will be generated for covergroup instance "cg_port_collisions" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_csr_lean/csr_functional_coverage.sv, 125.
+
+coverage setup:
+  workdir  :  /tmp/riscforge-xcelium/csr-unit-lean_20261113T034327Z_511cd89e/results/coverage
+  dutinst  :  tb_csr_unit_lean(tb_csr_unit_lean)
+  scope    :  scope
+  testname :  csr-unit-lean_20261113T034327Z_511cd89e
+
+coverage files:
+  model(design data) :  /tmp/riscforge-xcelium/csr-unit-lean_20261113T034327Z_511cd89e/results/coverage/scope/icc_30d2b3e3_22e7c3eb.ucm
+  data               :  /tmp/riscforge-xcelium/csr-unit-lean_20261113T034327Z_511cd89e/results/coverage/scope/csr-unit-lean_20261113T034327Z_511cd89e/icc_30d2b3e3_22e7c3eb.ucd
+TOOL:	xrun(64)	24.09-s001: Exiting on Nov 13, 2026 at 09:03:19 IST  (total: 00:00:02)

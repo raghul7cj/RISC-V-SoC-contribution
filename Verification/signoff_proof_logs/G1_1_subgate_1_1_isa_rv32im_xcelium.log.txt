@@ -1,0 +1,480 @@
+TOOL:	xrun(64)	24.09-s001: Started on Nov 17, 2026 at 07:50:45 IST
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+xrun(64): 24.09-s001: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmvlog: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/top.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/fetch_cycle.v
+	module worklib.fetch_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/imem_controller.v
+	module worklib.imem_controller:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/decode_cycle.v
+	module worklib.decode_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/execute_cycle.v
+	module worklib.execute_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/memory_cycle.v
+	module worklib.memory_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/writeback_cycle.v
+	module worklib.writeback_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/ALU.v
+	module worklib.ALU:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/ALU_Decoder.v
+	module worklib.ALU_Decoder:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/Control_Unit_Top.v
+	module worklib.Control_Unit_Top:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/Main_Decoder.v
+	module worklib.Main_Decoder:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/JB_unit.v
+	module worklib.JB_unit:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/Mux2.v
+	module worklib.Mux2:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/Mux_3_by_1.v
+	module worklib.Mux_3_by_1:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/PC.v
+	module worklib.PC:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/PC_Adder.v
+	module worklib.PC_Adder:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/Register_File.v
+	module worklib.Register_File:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/Sign_Extend.v
+	module worklib.Sign_Extend:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/booth_enc.v
+	module worklib.booth_enc:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/csa.v
+	module worklib.csa:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/pp_gen.v
+	module worklib.pp_gen:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/rv32m_mul.v
+	module worklib.rv32m_mul:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/rv32m_div.v
+	module worklib.rv32m_div:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/rv32m_unit.v
+	module worklib.rv32m_unit:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/irq_gateway.v
+	module worklib.irq_gateway:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/irq_arbiter.v
+	module worklib.irq_arbiter:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/csr_regfile.v
+	module worklib.csr_regfile:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/wb_trap_mret_commit_controller.v
+	module worklib.wb_trap_mret_commit_controller:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/hazard_unit.v
+	module worklib.hazard_unit:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/opcode_check.v
+	module worklib.opcode_check:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/Verification/lib/memory/sync_imem_sram.sv
+	module worklib.sync_imem_sram:sv
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/Verification/lib/memory/lsu_dmem_responder.sv
+	module worklib.lsu_dmem_responder:sv
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/riscv_core/rtl/ls_unit.v
+	module worklib.ls_unit:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/inputs/Verification/isa_4_13/tb_isa_4_13.sv
+	module worklib.tb_isa_4_13:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmelab: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+    ) Fetch (
+          |
+xmelab: *W,CUVWSP (./riscv_core/rtl/top.v,314|10): 1 output port was not connected:
+xmelab: (./riscv_core/rtl/fetch_cycle.v,88): imem_stall
+
+    ALU alu_inst (
+               |
+xmelab: *W,CUVWSP (./riscv_core/rtl/execute_cycle.v,260|15): 1 output port was not connected:
+xmelab: (./riscv_core/rtl/ALU.v,25): Zero
+
+    csr_regfile #(.XLEN(32)) csr_file (
+                                    |
+xmelab: *W,CUVWSP (./riscv_core/rtl/top.v,572|36): 1 output port was not connected:
+xmelab: (./riscv_core/rtl/csr_regfile.v,11): csr_valid_o
+
+	Top level design units:
+		tb_isa_4_13
+
+	Extracting FSMs for coverage:
+		worklib.irq_gateway
+		worklib.irq_arbiter
+		worklib.PC
+		worklib.PC_Adder
+		worklib.imem_controller
+		worklib.fetch_cycle
+		worklib.opcode_check
+		worklib.Main_Decoder
+		worklib.ALU_Decoder
+		worklib.Control_Unit_Top
+		worklib.Register_File
+		worklib.Sign_Extend
+		worklib.decode_cycle
+		worklib.Mux_3_by_1
+		worklib.Mux2
+		worklib.ALU
+		worklib.JB_unit
+		worklib.booth_enc
+		worklib.pp_gen
+		worklib.csa
+		worklib.rv32m_mul
+		worklib.rv32m_div
+			FSM extracted for state register state
+		worklib.rv32m_unit
+		worklib.execute_cycle
+		worklib.ls_unit
+		worklib.memory_cycle
+		worklib.writeback_cycle
+		worklib.wb_trap_mret_commit_controller
+		worklib.csr_regfile
+		worklib.hazard_unit
+		worklib.top
+		worklib.sync_imem_sram
+		worklib.lsu_dmem_responder
+		worklib.tb_isa_4_13
+	Total FSMs extracted = 1
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[16]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[15]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[14]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[13]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[12]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[11]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[10]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[9]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[8]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[7]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[6]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[5]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[4]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[3]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[2]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[1]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul.gen_booth[0]) .
+    csa u_l1_0(.a(l0[0]), .b(l0[1]),  .c(l0[2]),  .s(l1s0), .co(l1c0));
+                                                                   |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,175|67): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l1_1(.a(l0[3]), .b(l0[4]),  .c(l0[5]),  .s(l1s1), .co(l1c1));
+                                                                   |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,176|67): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l1_2(.a(l0[6]), .b(l0[7]),  .c(l0[8]),  .s(l1s2), .co(l1c2));
+                                                                   |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,177|67): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l1_3(.a(l0[9]), .b(l0[10]), .c(l0[11]), .s(l1s3), .co(l1c3));
+                                                                   |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,178|67): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l1_4(.a(l0[12]),.b(l0[13]), .c(l0[14]), .s(l1s4), .co(l1c4));
+                                                                   |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,179|67): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l1_5(.a(l0[15]),.b(l0[16]), .c(l0[17]), .s(l1s5), .co(l1c5));
+                                                                   |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,180|67): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l2_0(.a(l1s0),        .b(l1s1),        .c({l1c0[64:0],1'b0}), .s(l2s0), .co(l2c0));
+                                                                                         |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,187|89): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l2_1(.a(l1s2),        .b(l1s3),        .c({l1c1[64:0],1'b0}), .s(l2s1), .co(l2c1));
+                                                                                         |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,188|89): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l2_2(.a(l1s4),        .b(l1s5),        .c({l1c2[64:0],1'b0}), .s(l2s2), .co(l2c2));
+                                                                                         |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,189|89): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l2_3(.a({l1c3[64:0],1'b0}),.b({l1c4[64:0],1'b0}),.c({l1c5[64:0],1'b0}), .s(l2s3), .co(l2c3));
+                                                                                                   |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,190|99): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l3_0(.a(l2s0), .b(l2s1), .c({l2c0[64:0],1'b0}), .s(l3s0), .co(l3c0));
+                                                                           |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,196|75): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l3_1(.a(l2s2), .b(l2s3), .c({l2c1[64:0],1'b0}), .s(l3s1), .co(l3c1));
+                                                                           |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,197|75): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l4_0(.a(l3s0), .b(l3s1), .c({l3c0[64:0],1'b0}), .s(l4s0), .co(l4c0));
+                                                                           |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,205|75): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l4_1(.a({l3c1[64:0],1'b0}), .b(l2c2_sh), .c(l2c3_sh), .s(l4s1), .co(l4c1));
+                                                                                 |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,206|81): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l5_0(.a(l4s0), .b(l4s1), .c({l4c0[64:0],1'b0}), .s(l5s0), .co(l5c0));
+                                                                           |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,212|75): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+    csa u_l6(.a(l5s0), .b({l5c0[64:0],1'b0}), .c(l4c1_sh), .s(final_sum), .co(final_cout));
+                                                                                       |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,219|87): port sizes differ in port connection(65/66) for the instance(tb_isa_4_13.dut.Execute.m_unit.u_mul) .
+	Building instance overlay tables: ..................
+xmelab: *W,COVFDP: FSM description matching across instance of a module for "COVFDM" warning has been moved from elaboration to simulation dumping. To restore old matching behavior, use "set_backward_compat -COVFDM_during_elab". Also, it is recommended to use set_parameterized_module_coverage CCF command to avoid coverage loss due to FSM description difference across instances of a module.
+xmelab: *W,COVFHT: FSM hold transitions (transitions to the current state) are not extracted for any FSM in default mode.
+.. Done
+	Enabling instrumentation for coverage types: block expression FSM toggle functional
+xmelab: *W,COVDCL: By default expression coverage is scored only for Verilog logical operators (|| and &&) and VHDL logical operators (OR, AND, NOR, and NAND), and is scored only in condition expressions. To score coverage for other operators and for expressions in other statements, use the "set_expr_coverable_operators" and "set_expr_coverable_statements" coverage configuration file commands with suitable options at elaboration.
+	Generating native compiled code:
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+		worklib.hazard_unit:v <0x2d6e1883>
+			streams:  12, words:  6951
+		worklib.csr_regfile:v <0x6f51e312>
+			streams:  30, words: 25707
+		worklib.wb_trap_mret_commit_controller:v <0x564ffb36>
+			streams:  17, words:  5368
+		worklib.writeback_cycle:v <0x006c725f>
+			streams:   1, words:   553
+		worklib.ls_unit:v <0x02d7368a>
+			streams:   8, words: 15627
+		worklib.memory_cycle:v <0x5c7306db>
+			streams:  14, words: 23815
+		worklib.rv32m_div:v <0x7ca679d7>
+			streams:  23, words: 16602
+		worklib.csa:v <0x1ea63113>
+			streams:   1, words:  2182
+		worklib.csa:v <0x7ecb300e>
+			streams:   1, words:  2182
+		worklib.csa:v <0x23430570>
+			streams:   1, words:  3358
+		worklib.csa:v <0x432e046d>
+			streams:   1, words:  2183
+		worklib.csa:v <0x58740477>
+			streams:   1, words:  1613
+		worklib.pp_gen:v <0x132f2dff>
+			streams:   4, words:  2348
+		worklib.booth_enc:v <0x29e621b8>
+			streams:   0, words:     0
+		worklib.rv32m_unit:v <0x37632ec8>
+			streams:  11, words:  4471
+		worklib.JB_unit:v <0x4efa11df>
+			streams:   6, words:  1712
+		worklib.ALU:v <0x72c38122>
+			streams:   7, words:  6571
+		worklib.Mux2:v <0x3f7873e5>
+			streams:   1, words:   248
+		worklib.Mux_3_by_1:v <0x6f2b1e6e>
+			streams:   2, words:   513
+		worklib.execute_cycle:v <0x1f2a710c>
+			streams:  42, words: 56684
+		worklib.Sign_Extend:v <0x513858e2>
+			streams:   1, words:  2090
+		worklib.Register_File:v <0x1b89d650>
+			streams:   6, words:  4330
+		worklib.ALU_Decoder:v <0x578b587f>
+			streams:   1, words:  8552
+		worklib.opcode_check:v <0x73d7a694>
+			streams:   1, words:   943
+		worklib.Main_Decoder:v <0x4f4f49d6>
+			streams:   1, words: 14047
+		worklib.Control_Unit_Top:v <0x662b07c6>
+			streams:   4, words:  5844
+		worklib.decode_cycle:v <0x13b3830f>
+			streams:  16, words: 55789
+		worklib.imem_controller:v <0x2aad044c>
+			streams:   5, words:  2352
+		worklib.PC_Adder:v <0x2ea4f3c5>
+			streams:   1, words:   176
+		worklib.PC:v <0x088e09d3>
+			streams:   2, words:   777
+		worklib.irq_arbiter:v <0x39df34c4>
+			streams:   7, words: 15588
+		worklib.irq_gateway:v <0x7dce219a>
+			streams:   5, words:  2365
+		worklib.tb_isa_4_13:sv <0x549cbd03>
+			streams:  18, words: 223845
+		worklib.rv32m_mul:v <0x753c6746>
+			streams:  61, words: 22826
+		worklib.sync_imem_sram:sv <0x3ec2b3a7>
+			streams:   4, words:  3153
+		worklib.top:v <0x42067eec>
+			streams:  12, words:  2635
+		worklib.fetch_cycle:v <0x1cb88878>
+			streams:  16, words: 15578
+		worklib.lsu_dmem_responder:sv <0x44b03fb1>
+			streams:  12, words:  8827
+  logic [31:0] mem [0:DEPTH_WORDS-1];
+                 |
+xmelab: *W,COVMDD (./Verification/lib/memory/sync_imem_sram.sv,14|17): Toggle coverage for bit, logic, reg, wire, enum and struct multi-dimensional static arrays and vectors is not supported by default. To enable toggle coverage for enum multi-dimensional static arrays specify 'set_toggle_scoring -sv_enum enable_mda' and for other multi-dimensional static arrays, specify 'set_toggle_scoring -sv_mda [<max_bit_base2_exponent>] [-sv_mda_of_struct]' ccf command in the coverage configuration file.
+  integer index;
+              |
+xmelab: *W,COVUTA (./Verification/lib/memory/sync_imem_sram.sv,16|14): Toggle coverage is not supported for SystemVerilog integer, real array, string, dynamic array, sparse memory and reference ports. It is also not supported for VHDL multi-dimensional array and array of record. There may also be other such objects in the design.
+	Building instance specific data structures.
+xmelab: *W,CGPIDF: Covergroup "per_instance" option , by default, is set as 0.
+xmelab: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                  83      34
+		Registers:               211     210
+		Scalar wires:            244       -
+		Expanded wires:        1,129      20
+		Vectored wires:          307       -
+		Always blocks:            43      43
+		Initial blocks:           12      12
+		Cont. assignments:       255     338
+		Pseudo assignments:       29       -
+		Covergroup Instances:      0       1
+		Process Clocks:           21       4
+		Simulation timescale:    1ps
+	Writing initial simulation snapshot: worklib.tb_isa_4_13:sv
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmsim: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+Loading snapshot worklib.tb_isa_4_13:sv .................... Done
+xcelium> source /home/install/XCELIUM2409/tools/xcelium/files/xmsimrc
+xcelium> run
+ISA_BIN LUI hits=50
+ISA_BIN AUIPC hits=2
+ISA_BIN JAL hits=1
+ISA_BIN JALR hits=1
+ISA_BIN BEQ hits=3
+ISA_BIN BNE hits=3
+ISA_BIN BLT hits=3
+ISA_BIN BGE hits=3
+ISA_BIN BLTU hits=3
+ISA_BIN BGEU hits=3
+ISA_BIN LB hits=4
+ISA_BIN LH hits=2
+ISA_BIN LW hits=3
+ISA_BIN LBU hits=4
+ISA_BIN LHU hits=2
+ISA_BIN SB hits=4
+ISA_BIN SH hits=2
+ISA_BIN SW hits=1
+ISA_BIN ADDI hits=94
+ISA_BIN SLTI hits=1
+ISA_BIN SLTIU hits=1
+ISA_BIN XORI hits=1
+ISA_BIN ORI hits=1
+ISA_BIN ANDI hits=1
+ISA_BIN SLLI hits=1
+ISA_BIN SRLI hits=1
+ISA_BIN SRAI hits=1
+ISA_BIN ADD hits=1
+ISA_BIN SUB hits=1
+ISA_BIN SLL hits=1
+ISA_BIN SLT hits=1
+ISA_BIN SLTU hits=1
+ISA_BIN XOR hits=1
+ISA_BIN SRL hits=1
+ISA_BIN SRA hits=1
+ISA_BIN OR hits=1
+ISA_BIN AND hits=1
+ISA_BIN FENCE hits=1
+ISA_BIN ECALL hits=1
+ISA_BIN EBREAK hits=1
+ISA_BIN MUL hits=4
+ISA_BIN MULH hits=4
+ISA_BIN MULHSU hits=4
+ISA_BIN MULHU hits=4
+ISA_BIN DIV hits=4
+ISA_BIN DIVU hits=4
+ISA_BIN REM hits=4
+ISA_BIN REMU hits=4
+ISA_BIN CSRRW hits=4
+ISA_BIN CSRRS hits=4
+ISA_BIN CSRRC hits=1
+ISA_BIN CSRRWI hits=1
+ISA_BIN CSRRSI hits=2
+ISA_BIN CSRRCI hits=1
+ISA_4_13_PASS RV32I=40/40 M=8/8 Zicsr=6/6 loads=5/5 stores=3/3 coverage=100.00 events=256 stores_checked=7 checks=524
+Simulation complete via $finish(1) at time 7495 NS + 0
+./Verification/isa_4_13/tb_isa_4_13.sv:151       $finish;
+xcelium> exit
+xmsim: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+xmsim: *W,CGDEFN: Default name "tb_isa_4_13.cov" will be generated for covergroup instance "cov" as the name of the covergroup instance is not specified explicitly: ./Verification/isa_4_13/tb_isa_4_13.sv, 81.
+
+coverage setup:
+  workdir  :  /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/results/coverage
+  dutinst  :  tb_isa_4_13(tb_isa_4_13)
+  scope    :  scope
+  testname :  isa-4-13_20261117T023055Z_56387cc8
+
+coverage files:
+  model(design data) :  /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/results/coverage/scope/icc_3f89919a_13980320.ucm
+  data               :  /tmp/riscforge-xcelium/isa-4-13_20261117T023055Z_56387cc8/results/coverage/scope/isa-4-13_20261117T023055Z_56387cc8/icc_3f89919a_13980320.ucd
+TOOL:	xrun(64)	24.09-s001: Exiting on Nov 17, 2026 at 07:50:48 IST  (total: 00:00:03)

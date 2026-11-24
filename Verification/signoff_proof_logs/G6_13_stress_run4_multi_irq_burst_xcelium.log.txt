@@ -1,0 +1,391 @@
+TOOL:	xrun(64)	24.09-s001: Started on Nov 22, 2026 at 20:38:55 IST
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+xrun(64): 24.09-s001: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmvlog: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/top.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/fetch_cycle.v
+	module worklib.fetch_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/imem_controller.v
+	module worklib.imem_controller:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/decode_cycle.v
+	module worklib.decode_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/execute_cycle.v
+	module worklib.execute_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/memory_cycle.v
+	module worklib.memory_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/writeback_cycle.v
+	module worklib.writeback_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/ALU.v
+	module worklib.ALU:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/ALU_Decoder.v
+	module worklib.ALU_Decoder:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/Control_Unit_Top.v
+	module worklib.Control_Unit_Top:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/Main_Decoder.v
+	module worklib.Main_Decoder:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/JB_unit.v
+	module worklib.JB_unit:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/Mux2.v
+	module worklib.Mux2:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/Mux_3_by_1.v
+	module worklib.Mux_3_by_1:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/PC.v
+	module worklib.PC:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/PC_Adder.v
+	module worklib.PC_Adder:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/Register_File.v
+	module worklib.Register_File:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/Sign_Extend.v
+	module worklib.Sign_Extend:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/booth_enc.v
+	module worklib.booth_enc:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/csa.v
+	module worklib.csa:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/pp_gen.v
+	module worklib.pp_gen:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/rv32m_mul.v
+	module worklib.rv32m_mul:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/rv32m_div.v
+	module worklib.rv32m_div:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/rv32m_unit.v
+	module worklib.rv32m_unit:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/irq_gateway.v
+	module worklib.irq_gateway:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/irq_arbiter.v
+	module worklib.irq_arbiter:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/csr_regfile.v
+	module worklib.csr_regfile:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/wb_trap_mret_commit_controller.v
+	module worklib.wb_trap_mret_commit_controller:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/hazard_unit.v
+	module worklib.hazard_unit:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/opcode_check.v
+	module worklib.opcode_check:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/riscv_core/rtl/ls_unit.v
+	module worklib.ls_unit:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/Verification/tb_core_trap_stress/tb/stress_sram_responder.sv
+	module worklib.stress_imem_sram:sv
+		errors: 0, warnings: 0
+	module worklib.stress_dmem_responder:sv
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/Verification/tb_core_trap_stress/tb/stress_irq_driver.sv
+	module worklib.stress_irq_driver:sv
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/Verification/tb_core_trap_stress/tb/stress_sva_cov.sv
+	module worklib.stress_sva_cov:sv
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/inputs/Verification/tb_core_trap_stress/tb/tb_core_trap_stress.sv
+	module worklib.tb_core_trap_stress:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmelab: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+    ) Fetch (
+          |
+xmelab: *W,CUVWSP (./riscv_core/rtl/top.v,314|10): 1 output port was not connected:
+xmelab: (./riscv_core/rtl/fetch_cycle.v,88): imem_stall
+
+    ALU alu_inst (
+               |
+xmelab: *W,CUVWSP (./riscv_core/rtl/execute_cycle.v,260|15): 1 output port was not connected:
+xmelab: (./riscv_core/rtl/ALU.v,25): Zero
+
+    csr_regfile #(.XLEN(32)) csr_file (
+                                    |
+xmelab: *W,CUVWSP (./riscv_core/rtl/top.v,572|36): 1 output port was not connected:
+xmelab: (./riscv_core/rtl/csr_regfile.v,11): csr_valid_o
+
+	Top level design units:
+		tb_core_trap_stress
+
+	Extracting FSMs for coverage:
+		worklib.irq_gateway
+		worklib.irq_arbiter
+		worklib.PC
+		worklib.PC_Adder
+		worklib.imem_controller
+		worklib.fetch_cycle
+		worklib.opcode_check
+		worklib.Main_Decoder
+		worklib.ALU_Decoder
+		worklib.Control_Unit_Top
+		worklib.Register_File
+		worklib.Sign_Extend
+		worklib.decode_cycle
+		worklib.Mux_3_by_1
+		worklib.Mux2
+		worklib.ALU
+		worklib.JB_unit
+		worklib.booth_enc
+		worklib.pp_gen
+		worklib.csa
+		worklib.rv32m_mul
+		worklib.rv32m_div
+			FSM extracted for state register state
+		worklib.rv32m_unit
+		worklib.execute_cycle
+		worklib.ls_unit
+		worklib.memory_cycle
+		worklib.writeback_cycle
+		worklib.wb_trap_mret_commit_controller
+		worklib.csr_regfile
+		worklib.hazard_unit
+		worklib.top
+		worklib.stress_imem_sram
+		worklib.stress_dmem_responder
+		worklib.stress_irq_driver
+		worklib.stress_sva_cov
+		worklib.tb_core_trap_stress
+	Total FSMs extracted = 1
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[16]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[15]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[14]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[13]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[12]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[11]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[10]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[9]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[8]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[7]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[6]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[5]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[4]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[3]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[2]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[1]) .
+                .shift ((2*i)),
+                          |
+xmelab: *W,CUVMPW (./riscv_core/rtl/rv32m_mul.v,81|26): port sizes differ in port connection(32/6) for the instance(tb_core_trap_stress.dut.Execute.m_unit.u_mul.gen_booth[0]) .
+	Building instance overlay tables: ..................
+xmelab: *W,COVFDP: FSM description matching across instance of a module for "COVFDM" warning has been moved from elaboration to simulation dumping. To restore old matching behavior, use "set_backward_compat -COVFDM_during_elab". Also, it is recommended to use set_parameterized_module_coverage CCF command to avoid coverage loss due to FSM description difference across instances of a module.
+xmelab: *W,COVFHT: FSM hold transitions (transitions to the current state) are not extracted for any FSM in default mode.
+.. Done
+	Enabling instrumentation for coverage types: block expression FSM toggle functional
+xmelab: *W,COVDCL: By default expression coverage is scored only for Verilog logical operators (|| and &&) and VHDL logical operators (OR, AND, NOR, and NAND), and is scored only in condition expressions. To score coverage for other operators and for expressions in other statements, use the "set_expr_coverable_operators" and "set_expr_coverable_statements" coverage configuration file commands with suitable options at elaboration.
+	Generating native compiled code:
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+		worklib.stress_irq_driver:sv <0x130249d6>
+			streams:  22, words: 13532
+		worklib.hazard_unit:v <0x0707119c>
+			streams:  12, words:  6951
+		worklib.wb_trap_mret_commit_controller:v <0x0d485031>
+			streams:  17, words:  5368
+		worklib.writeback_cycle:v <0x1f61fb0a>
+			streams:   1, words:   553
+		worklib.ls_unit:v <0x5bd80305>
+			streams:   8, words: 15627
+		worklib.memory_cycle:v <0x575fb6cd>
+			streams:  14, words: 23815
+		worklib.rv32m_div:v <0x523a50d7>
+			streams:  23, words: 16602
+		worklib.csa:v <0x73a6996b>
+			streams:   1, words:   979
+		worklib.pp_gen:v <0x72ff994d>
+			streams:   4, words:  2348
+		worklib.booth_enc:v <0x3ed51b0c>
+			streams:   0, words:     0
+		worklib.rv32m_unit:v <0x5a49d767>
+			streams:  11, words:  4471
+		worklib.JB_unit:v <0x5f7f846e>
+			streams:   6, words:  1712
+		worklib.ALU:v <0x46fa8b6d>
+			streams:   7, words:  6571
+		worklib.Mux2:v <0x5f20a0ae>
+			streams:   1, words:   248
+		worklib.Mux_3_by_1:v <0x45bab249>
+			streams:   2, words:   513
+		worklib.execute_cycle:v <0x33e9a6b7>
+			streams:  42, words: 56740
+		worklib.Sign_Extend:v <0x7f40a9f0>
+			streams:   1, words:  2090
+		worklib.Register_File:v <0x3890117c>
+			streams:   6, words:  4330
+		worklib.ALU_Decoder:v <0x40b862cb>
+			streams:   1, words:  8552
+		worklib.opcode_check:v <0x34aaf193>
+			streams:   1, words:   943
+		worklib.Main_Decoder:v <0x2d3317f0>
+			streams:   1, words: 14047
+		worklib.Control_Unit_Top:v <0x19446387>
+			streams:   4, words:  5844
+		worklib.decode_cycle:v <0x2c210ae7>
+			streams:  16, words: 55789
+		worklib.imem_controller:v <0x354291c5>
+			streams:   5, words:  2352
+		worklib.PC_Adder:v <0x7783eca6>
+			streams:   1, words:   176
+		worklib.PC:v <0x58feee9c>
+			streams:   2, words:   777
+		worklib.irq_arbiter:v <0x60d475d9>
+			streams:   7, words: 15588
+		worklib.irq_gateway:v <0x1c1e9528>
+			streams:   5, words:  2365
+		worklib.tb_core_trap_stress:sv <0x026929e9>
+			streams:  45, words: 78172
+		worklib.rv32m_mul:v <0x6e199947>
+			streams:  73, words: 27401
+		worklib.top:v <0x35507d7f>
+			streams:  12, words:  2635
+		worklib.csr_regfile:v <0x482fceff>
+			streams:  30, words: 25628
+		worklib.stress_imem_sram:sv <0x2f715c7e>
+			streams:  10, words:  7490
+		worklib.fetch_cycle:v <0x48d24a66>
+			streams:  16, words: 15578
+		worklib.stress_dmem_responder:sv <0x6b13f99a>
+			streams:  22, words: 15248
+		worklib.stress_sva_cov:sv <0x24d24e0e>
+			streams:  21, words: 27161
+    reg [31:0] Register [31:0];
+                      |
+xmelab: *W,COVMDD (./riscv_core/rtl/Register_File.v,29|22): Toggle coverage for bit, logic, reg, wire, enum and struct multi-dimensional static arrays and vectors is not supported by default. To enable toggle coverage for enum multi-dimensional static arrays specify 'set_toggle_scoring -sv_enum enable_mda' and for other multi-dimensional static arrays, specify 'set_toggle_scoring -sv_mda [<max_bit_base2_exponent>] [-sv_mda_of_struct]' ccf command in the coverage configuration file.
+    integer idx;
+              |
+xmelab: *W,COVUTA (./riscv_core/rtl/Register_File.v,54|14): Toggle coverage is not supported for SystemVerilog integer, real array, string, dynamic array, sparse memory and reference ports. It is also not supported for VHDL multi-dimensional array and array of record. There may also be other such objects in the design.
+xmelab: *W,COVNOEN: By default, toggle coverage is not supported for systemverilog enumerated nets and variables. To enable toggle coverage of these objects, specify the 'set_toggle_scoring -sv_enum' command in the coverage configuration file.
+	Building instance specific data structures.
+xmelab: *W,CGPIDF: Covergroup "per_instance" option , by default, is set as 0.
+xmelab: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                85      36
+		Registers:             321     321
+		Scalar wires:          259       -
+		Expanded wires:         73       4
+		Vectored wires:        351       -
+		Named events:            3       3
+		Always blocks:          65      65
+		Initial blocks:         22      22
+		Parallel blocks:         1       1
+		Cont. assignments:     270     356
+		Pseudo assignments:     46       -
+		Assertions:              3       3
+		Covergroup Instances:    0       1
+		Process Clocks:         23       5
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_core_trap_stress:sv
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmsim: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+Loading snapshot worklib.tb_core_trap_stress:sv .................... Done
+xcelium> source /home/install/XCELIUM2409/tools/xcelium/files/xmsimrc
+xcelium> run
+======================================================================
+[G6.13] Starting case=multi_irq_burst vectored=1 wait=[1..4] seed=42
+======================================================================
+[G6.13] App Checksum : actual=528 expected=528
+[G6.13] IRQ Accounting: injected=126 hw_commits=120 sw_isr_count=120 bursts=21
+[G6.13] Memory Traffic: loads=184 stores=546 sva_errors=0
+G6_13_STRESS_PASS case=multi_irq_burst vectored=1 irqs=120 checksum=528
+Simulation complete via $finish(1) at time 63245 NS + 0
+./Verification/tb_core_trap_stress/tb/tb_core_trap_stress.sv:236         $finish;
+xcelium> exit
+xmsim: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+xmsim: *W,CGDEFN: Default name "tb_core_trap_stress.u_sva_cov.u_cg" will be generated for covergroup instance "u_cg" as the name of the covergroup instance is not specified explicitly: ./Verification/tb_core_trap_stress/tb/stress_sva_cov.sv, 109.
+
+coverage setup:
+  workdir  :  /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/results/coverage
+  dutinst  :  tb_core_trap_stress(tb_core_trap_stress)
+  scope    :  scope
+  testname :  core-trap-stress-multi-burst_20261122T151902Z_40d8b426
+
+coverage files:
+  model(design data) :  /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/results/coverage/scope/icc_4d63e0c3_4e30b7a4.ucm
+  data               :  /tmp/riscforge-xcelium/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/results/coverage/scope/core-trap-stress-multi-burst_20261122T151902Z_40d8b426/icc_4d63e0c3_4e30b7a4.ucd
+TOOL:	xrun(64)	24.09-s001: Exiting on Nov 22, 2026 at 20:38:58 IST  (total: 00:00:03)

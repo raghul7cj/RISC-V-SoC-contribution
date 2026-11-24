@@ -1,0 +1,161 @@
+TOOL:	xrun(64)	24.09-s001: Started on Nov 12, 2026 at 00:11:55 IST
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+xrun(64): 24.09-s001: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmvlog: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+file: /tmp/riscforge-xcelium/irq-unit_20261111T185206Z_03e8a574/inputs/ips/riscv_core/rtl/irq_gateway.v
+	module worklib.irq_gateway:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/irq-unit_20261111T185206Z_03e8a574/inputs/ips/riscv_core/rtl/irq_arbiter.v
+	module worklib.irq_arbiter:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/irq-unit_20261111T185206Z_03e8a574/inputs/ips/riscv_core/rtl/csr_regfile.v
+	module worklib.csr_regfile:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/irq-unit_20261111T185206Z_03e8a574/inputs/ips/riscv_core/rtl/wb_trap_mret_commit_controller.v
+	module worklib.wb_trap_mret_commit_controller:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/irq-unit_20261111T185206Z_03e8a574/inputs/ips/Verification/tb_irq_restructure.sv
+	module worklib.tb_irq_restructure:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmelab: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+  wb_trap_mret_commit_controller wb (.valid_W(wb_valid),
+                                  |
+xmelab: *W,CUVWSP (./ips/Verification/tb_irq_restructure.sv,31|34): 14 output ports were not connected:
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,32): wb_trap_redirect_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,33): trap_target_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,34): flush_pipeline_onehot_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,37): trap_valid_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,38): trap_cause_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,39): trap_class_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,40): trap_pc_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,41): trap_addr_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,42): trap_addr_valid_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,43): trap_is_interrupt_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,50): csr_write_en_mret_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,51): csr_waddr_mret_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,52): csr_wdata_mret_o
+xmelab: (./ips/riscv_core/rtl/wb_trap_mret_commit_controller.v,55): mret_commit_o
+
+  csr_regfile csr (.clk_i(clk), .rst_n_i(rst_n), .csr_raddr_i(csr_addr),
+                |
+xmelab: *W,CUVWSP (./ips/Verification/tb_irq_restructure.sv,42|16): 3 output ports were not connected:
+xmelab: (./ips/riscv_core/rtl/csr_regfile.v,11): csr_valid_o
+xmelab: (./ips/riscv_core/rtl/csr_regfile.v,54): mtvec_out_o
+xmelab: (./ips/riscv_core/rtl/csr_regfile.v,57): mstatus_mie_out_o
+
+	Top level design units:
+		tb_irq_restructure
+
+	Extracting FSMs for coverage:
+		worklib.irq_gateway
+		worklib.irq_arbiter
+		worklib.wb_trap_mret_commit_controller
+		worklib.csr_regfile
+		worklib.tb_irq_restructure
+	Total FSMs extracted = 0
+	Building instance overlay tables: .................... Done
+	Enabling instrumentation for coverage types: block expression FSM toggle functional
+xmelab: *W,COVDCL: By default expression coverage is scored only for Verilog logical operators (|| and &&) and VHDL logical operators (OR, AND, NOR, and NAND), and is scored only in condition expressions. To score coverage for other operators and for expressions in other statements, use the "set_expr_coverable_operators" and "set_expr_coverable_statements" coverage configuration file commands with suitable options at elaboration.
+	Generating native compiled code:
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+		worklib.csr_regfile:v <0x20b36dfb>
+			streams:  32, words: 27792
+		worklib.wb_trap_mret_commit_controller:v <0x564ffb36>
+			streams:  17, words:  5368
+		worklib.irq_arbiter:v <0x5297e693>
+			streams:   7, words: 15588
+		worklib.irq_gateway:v <0x58a67fa8>
+			streams:   5, words:  2441
+		worklib.tb_irq_restructure:sv <0x2ea1922b>
+			streams:  91, words: 206498
+  integer fixed_order [0:7];
+                    |
+xmelab: *W,COVUTA (./ips/Verification/tb_irq_restructure.sv,54|20): Toggle coverage is not supported for SystemVerilog integer, real array, string, dynamic array, sparse memory and reference ports. It is also not supported for VHDL multi-dimensional array and array of record. There may also be other such objects in the design.
+	Building instance specific data structures.
+xmelab: *W,CGPIDF: Covergroup "per_instance" option , by default, is set as 0.
+xmelab: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 5       5
+		Registers:              94      70
+		Scalar wires:           33       -
+		Expanded wires:         13       1
+		Vectored wires:         48       -
+		Always blocks:           9       9
+		Initial blocks:         36      36
+		Cont. assignments:      22      38
+		Pseudo assignments:     22       -
+		Covergroup Instances:    0      14
+		Process Clocks:          4       3
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_irq_restructure:sv
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmsim: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+Loading snapshot worklib.tb_irq_restructure:sv .................... Done
+xcelium> source /home/install/XCELIUM2409/tools/xcelium/files/xmsimrc
+xcelium> run
+PASS: 196608 arbitration snapshots plus gateway, mip/mie, mintprio and commit checks
+Simulation complete via $finish(1) at time 201155 NS + 0
+./ips/Verification/tb_irq_restructure.sv:480     $finish;
+xcelium> exit
+xmsim: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.eligibility_cov" will be generated for covergroup instance "eligibility_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 154.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.rr_cov" will be generated for covergroup instance "rr_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 155.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.stream_choice_cov" will be generated for covergroup instance "stream_choice_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 156.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.background_choice_cov" will be generated for covergroup instance "background_choice_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 157.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.fixed_pair_cov" will be generated for covergroup instance "fixed_pair_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 158.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.event_cov" will be generated for covergroup instance "event_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 159.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.gpio_cov" will be generated for covergroup instance "gpio_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 160.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.level_cov" will be generated for covergroup instance "level_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 161.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.csr_cov" will be generated for covergroup instance "csr_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 162.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.commit_cov" will be generated for covergroup instance "commit_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 163.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.commit_control_cov" will be generated for covergroup instance "commit_control_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 164.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.csr_control_cov" will be generated for covergroup instance "csr_control_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 165.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.csr_irq_cov" will be generated for covergroup instance "csr_irq_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 166.
+xmsim: *W,CGDEFN: Default name "tb_irq_restructure.mie_bits_cov" will be generated for covergroup instance "mie_bits_cov" as the name of the covergroup instance is not specified explicitly: ./ips/Verification/tb_irq_restructure.sv, 167.
+
+coverage setup:
+  workdir  :  /tmp/riscforge-xcelium/irq-unit_20261111T185206Z_03e8a574/results/coverage
+  dutinst  :  tb_irq_restructure(tb_irq_restructure)
+  scope    :  scope
+  testname :  irq-unit_20261111T185206Z_03e8a574
+
+coverage files:
+  model(design data) :  /tmp/riscforge-xcelium/irq-unit_20261111T185206Z_03e8a574/results/coverage/scope/icc_051abd3c_71350b3f.ucm
+  data               :  /tmp/riscforge-xcelium/irq-unit_20261111T185206Z_03e8a574/results/coverage/scope/irq-unit_20261111T185206Z_03e8a574/icc_051abd3c_71350b3f.ucd
+TOOL:	xrun(64)	24.09-s001: Exiting on Nov 12, 2026 at 00:11:58 IST  (total: 00:00:03)

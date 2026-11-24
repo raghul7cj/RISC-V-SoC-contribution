@@ -1,0 +1,2 @@
+PASS expected_retired=29 actual=29 held_edges=8 traps=1 mret=1 wait=4
+/mnt/c/Users/cj/Desktop/1TOPS project/RISCFORGE_1TOPS-main/rtl/ips/Verification/minstret_retirement/tb_minstret.sv:88: $finish called at 666000 (1ps)

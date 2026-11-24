@@ -1,0 +1,53 @@
+TOOL:	xrun(64)	24.09-s001: Started on Nov 17, 2026 at 09:57:39 IST
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+xrun(64): 24.09-s001: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmsim: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+Loading snapshot worklib.soc_benchmark_tb:sv .................... Done
+xcelium> source /home/install/XCELIUM2409/tools/xcelium/files/xmsimrc
+xcelium> run
+BENCH_PRELOAD imem=/home/iiita/coremark_server_rerun_20261117_0955_a4f91c7d_archive/firmware_long/validation_long/imem.hex dmem=/home/iiita/coremark_server_rerun_20261117_0955_a4f91c7d_archive/firmware_long/validation_long/dmem.hex
+BENCH_BOOT_READY timeout_cycles=1800000000
+2K validation run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 1337936549
+Total time (secs): 13
+Iterations       : 2500
+Compiler version : GCC 13.2.0
+Compiler flags   : -march=rv32im_zicsr -mabi=ilp32 -O2 -ffreestanding -nostdlib -DVALIDATION_RUN=1 -DTOTAL_DATA_SIZE=2000
+Memory location  : DSRAM static
+seedcrc          : 0x18f2
+[0]crclist       : 0xe3c1
+[0]crcmatrix     : 0x747
+[0]crcstate      : 0x8d84
+[0]crcfinal      : 0xa8a4
+Correct operation validated. See README.md for run and reporting rules.
+BENCH_TB_PASS id=3 cycles=1337980838 held_wb_cycles=80472570 raw_wb_valid_cycles=865701216
+Simulation complete via $finish(1) at time 13379808900 NS + 0
+./ips/benchmarks/tb/soc_benchmark_tb.sv:268       $finish;
+xcelium> exit
+TOOL:	xrun(64)	24.09-s001: Exiting on Nov 17, 2026 at 13:50:54 IST  (total: 03:53:15)

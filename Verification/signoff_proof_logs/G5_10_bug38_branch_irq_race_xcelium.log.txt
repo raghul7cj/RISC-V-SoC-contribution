@@ -1,0 +1,116 @@
+TOOL:	xrun(64)	24.09-s001: Started on Nov 17, 2026 at 08:35:09 IST
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+xrun(64): 24.09-s001: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmvlog: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+file: /tmp/riscforge-xcelium/isolated-issue38_20261117T031521Z_90211a31/inputs/ips/riscv_core/rtl/memory_cycle.v
+	module worklib.memory_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isolated-issue38_20261117T031521Z_90211a31/inputs/ips/riscv_core/rtl/ls_unit.v
+	module worklib.ls_unit:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isolated-issue38_20261117T031521Z_90211a31/inputs/ips/riscv_core/rtl/writeback_cycle.v
+	module worklib.writeback_cycle:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isolated-issue38_20261117T031521Z_90211a31/inputs/ips/riscv_core/rtl/Register_File.v
+	module worklib.Register_File:v
+		errors: 0, warnings: 0
+file: /tmp/riscforge-xcelium/isolated-issue38_20261117T031521Z_90211a31/inputs/ips/Verification/isolated_core_issues_20261117/issue38/tb_issue38.sv
+	module worklib.tb_issue38:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xrun: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmelab: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+memory_cycle mem(.clk(clk),.rst(rst),.FlushW(flush),.wb_redirect_i(1'b0),
+               |
+xmelab: *W,CUVWSP (./ips/Verification/isolated_core_issues_20261117/issue38/tb_issue38.sv,13|15): 10 output ports were not connected:
+xmelab: (./ips/riscv_core/rtl/memory_cycle.v,73): lsu_mem_addr
+xmelab: (./ips/riscv_core/rtl/memory_cycle.v,74): lsu_mem_wdata
+xmelab: (./ips/riscv_core/rtl/memory_cycle.v,75): lsu_mem_be
+xmelab: (./ips/riscv_core/rtl/memory_cycle.v,90): exc_cause_W
+xmelab: (./ips/riscv_core/rtl/memory_cycle.v,91): exc_class_W
+xmelab: (./ips/riscv_core/rtl/memory_cycle.v,92): exc_tval_W
+xmelab: (./ips/riscv_core/rtl/memory_cycle.v,93): exc_pc_W
+xmelab: (./ips/riscv_core/rtl/memory_cycle.v,95): csr_write_en_W
+xmelab: (./ips/riscv_core/rtl/memory_cycle.v,96): csr_addr_W
+xmelab: (./ips/riscv_core/rtl/memory_cycle.v,97): new_csr_W
+
+	Top level design units:
+		tb_issue38
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+		worklib.Register_File:v <0x4010f2a3>
+			streams:   6, words:  2981
+		worklib.writeback_cycle:v <0x1079c6ae>
+			streams:   1, words:   553
+		worklib.ls_unit:v <0x2a306999>
+			streams:   8, words:  7824
+		worklib.memory_cycle:v <0x0e366ad9>
+			streams:  14, words: 13678
+		worklib.tb_issue38:sv <0x74b32d01>
+			streams:  32, words: 27409
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 5       5
+		Registers:              42      42
+		Scalar wires:           38       -
+		Vectored wires:         46       -
+		Always blocks:           5       5
+		Initial blocks:         17      17
+		Cont. assignments:      20      53
+		Pseudo assignments:     12       -
+		Assertions:              1       1
+		Process Clocks:          2       2
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_issue38:sv
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+xmsim: *W,DLCVAR (/home/install/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+Loading snapshot worklib.tb_issue38:sv .................... Done
+xcelium> source /home/install/XCELIUM2409/tools/xcelium/files/xmsimrc
+xcelium> run
+ISSUE38_OBS waits=0 physical=1 retire=1
+ISSUE38_OBS waits=1 physical=2 retire=1
+ISSUE38_OBS waits=2 physical=3 retire=1
+ISSUE38_OBS waits=3 physical=4 retire=1
+ISSUE38_OBS waits=4 physical=5 retire=1
+ISSUE38_OBS waits=5 physical=6 retire=1
+ISSUE38_RESULT checks=54 failures=0
+ISSUE38_PASS
+Simulation complete via $finish(1) at time 416 NS + 0
+./ips/Verification/isolated_core_issues_20261117/issue38/tb_issue38.sv:51  $display("ISSUE38_PASS"); $finish;
+xcelium> exit
+TOOL:	xrun(64)	24.09-s001: Exiting on Nov 17, 2026 at 08:35:12 IST  (total: 00:00:03)
