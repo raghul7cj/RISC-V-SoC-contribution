@@ -1,0 +1,1065 @@
+{
+  "started_utc": "2026-11-11T18:25:23.862104Z",
+  "scope": "Unchanged benches; functional checks, attempts and skeletons remain distinct",
+  "runs": {
+    "csr_corner_unit": {
+      "exit_code": 0,
+      "kind": "csr_unit",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/csr_corner_unit/xrun.log",
+      "counts": [
+        552,
+        0,
+        56
+      ],
+      "status": "checked_with_spec_pending",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt",
+          "functional_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/csr_corner_unit/coverage/scope/csr_corner_unit",
+        "status": "generated"
+      }
+    },
+    "core_csr_trap": {
+      "exit_code": 0,
+      "kind": "skeleton",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/core_csr_trap/xrun.log",
+      "status": "skeleton_not_functional_pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/core_csr_trap/coverage/scope/core_csr_trap",
+        "status": "generated"
+      }
+    },
+    "irq_unit": {
+      "exit_code": 0,
+      "kind": "irq_unit",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/irq_unit/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt",
+          "functional_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/irq_unit/coverage/scope/irq_unit",
+        "status": "generated"
+      }
+    },
+    "operations_wait0": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait0/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait0/coverage/scope/operations_wait0",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 0,
+        "retired": 31
+      }
+    },
+    "operations_wait1": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait1/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait1/coverage/scope/operations_wait1",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 0,
+        "retired": 31
+      }
+    },
+    "operations_wait4": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait4/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait4/coverage/scope/operations_wait4",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 0,
+        "retired": 31
+      }
+    },
+    "operations_wait9": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait9/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait9/coverage/scope/operations_wait9",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 0,
+        "retired": 31
+      }
+    },
+    "exceptions_wait0": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait0/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait0/coverage/scope/exceptions_wait0",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 0,
+        "retired": 33
+      }
+    },
+    "exceptions_wait1": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait1/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait1/coverage/scope/exceptions_wait1",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 0,
+        "retired": 33
+      }
+    },
+    "exceptions_wait4": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait4/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait4/coverage/scope/exceptions_wait4",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 0,
+        "retired": 33
+      }
+    },
+    "exceptions_wait9": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait9/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait9/coverage/scope/exceptions_wait9",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 0,
+        "retired": 33
+      }
+    },
+    "interrupt_wait0": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait0/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait0/coverage/scope/interrupt_wait0",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 1,
+        "retired": 44
+      }
+    },
+    "interrupt_wait1": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait1/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait1/coverage/scope/interrupt_wait1",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 1,
+        "retired": 44
+      }
+    },
+    "interrupt_wait4": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait4/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait4/coverage/scope/interrupt_wait4",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 1,
+        "retired": 44
+      }
+    },
+    "interrupt_wait9": {
+      "exit_code": 0,
+      "kind": "functional",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait9/xrun.log",
+      "status": "pass",
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait9/coverage/scope/interrupt_wait9",
+        "status": "generated"
+      },
+      "postcheck": {
+        "traps_match": true,
+        "interrupt_count": 1,
+        "retired": 44
+      }
+    },
+    "legacy_tb1": {
+      "exit_code": 0,
+      "kind": "legacy",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/legacy_tb1/xrun.log",
+      "status": "failed_historical_diagnostic",
+      "failure_messages": [
+        "[FAIL] Test 1: Expected mcause 0x80000007, got 00000000",
+        "[FAIL] Test 2: mcause mismatch on source 0. Expected 80000013, got 00000000",
+        "[FAIL] Test 3: Priority resolution error at step 0. Expected 80000013, got 00000000",
+        "[FAIL] Test 4: Above-threshold UART IRQ not accepted!",
+        "[FAIL] Test 5: Test did not write completion sentinel to DMEM[0]",
+        "[FAIL] Test 6: Exception handler did not write sentinel to DMEM[0]",
+        "[FAIL] Test 7: Timed out waiting for DMEM[0] checksum (got 00000000, expected 0xAAAAAAB4)"
+      ],
+      "pass_messages": [],
+      "coverage": {
+        "exit_code": 0,
+        "reports": [
+          "metrics_summary.txt",
+          "code_summary.txt"
+        ],
+        "database": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/legacy_tb1/coverage/scope/legacy_tb1",
+        "status": "generated"
+      },
+      "failed_scenarios": 7
+    }
+  },
+  "commands": [
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-version"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/tool_version.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/csr_corner_unit/coverage",
+        "-covtest",
+        "csr_corner_unit",
+        "-top",
+        "tb_csr_corner_unit",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/csr_corner_unit/sources.f",
+        "-l",
+        "xrun.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/csr_corner_unit",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/csr_corner_unit/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/csr_corner_unit/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/csr_corner_unit",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/csr_corner_unit/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/core_csr_trap/coverage",
+        "-covtest",
+        "core_csr_trap",
+        "-top",
+        "tb_core_csr_trap",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/core_csr_trap/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/core_csr_trap",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/core_csr_trap/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/core_csr_trap/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/core_csr_trap",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/core_csr_trap/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/irq_unit/coverage",
+        "-covtest",
+        "irq_unit",
+        "-top",
+        "tb_irq_restructure",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/irq_unit/sources.f",
+        "-l",
+        "xrun.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/irq_unit",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/irq_unit/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/irq_unit/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/irq_unit",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/irq_unit/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait0/coverage",
+        "-covtest",
+        "operations_wait0",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait0/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/operations/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/operations/reference.hex",
+        "+COUNT=31",
+        "+DONE=80000088",
+        "+WAIT=0",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait0/trace.csv",
+        "+MEM0=7",
+        "+MEM1=7"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait0",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait0/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait0/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait0",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait0/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait1/coverage",
+        "-covtest",
+        "operations_wait1",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait1/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/operations/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/operations/reference.hex",
+        "+COUNT=31",
+        "+DONE=80000088",
+        "+WAIT=1",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait1/trace.csv",
+        "+MEM0=7",
+        "+MEM1=7"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait1",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait1/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait1/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait1",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait1/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait4/coverage",
+        "-covtest",
+        "operations_wait4",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait4/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/operations/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/operations/reference.hex",
+        "+COUNT=31",
+        "+DONE=80000088",
+        "+WAIT=4",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait4/trace.csv",
+        "+MEM0=7",
+        "+MEM1=7"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait4",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait4/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait4/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait4",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait4/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait9/coverage",
+        "-covtest",
+        "operations_wait9",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait9/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/operations/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/operations/reference.hex",
+        "+COUNT=31",
+        "+DONE=80000088",
+        "+WAIT=9",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait9/trace.csv",
+        "+MEM0=7",
+        "+MEM1=7"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait9",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait9/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait9/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait9",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/operations_wait9/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait0/coverage",
+        "-covtest",
+        "exceptions_wait0",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait0/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/exceptions/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/exceptions/reference.hex",
+        "+COUNT=33",
+        "+DONE=80000044",
+        "+WAIT=0",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait0/trace.csv",
+        "+MEM0=b",
+        "+MEM1=0"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait0",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait0/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait0/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait0",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait0/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait1/coverage",
+        "-covtest",
+        "exceptions_wait1",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait1/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/exceptions/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/exceptions/reference.hex",
+        "+COUNT=33",
+        "+DONE=80000044",
+        "+WAIT=1",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait1/trace.csv",
+        "+MEM0=b",
+        "+MEM1=0"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait1",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait1/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait1/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait1",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait1/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait4/coverage",
+        "-covtest",
+        "exceptions_wait4",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait4/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/exceptions/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/exceptions/reference.hex",
+        "+COUNT=33",
+        "+DONE=80000044",
+        "+WAIT=4",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait4/trace.csv",
+        "+MEM0=b",
+        "+MEM1=0"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait4",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait4/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait4/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait4",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait4/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait9/coverage",
+        "-covtest",
+        "exceptions_wait9",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait9/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/exceptions/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/exceptions/reference.hex",
+        "+COUNT=33",
+        "+DONE=80000044",
+        "+WAIT=9",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait9/trace.csv",
+        "+MEM0=b",
+        "+MEM1=0"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait9",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait9/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait9/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait9",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/exceptions_wait9/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait0/coverage",
+        "-covtest",
+        "interrupt_wait0",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait0/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/reference.hex",
+        "+COUNT=42",
+        "+DONE=800000a4",
+        "+WAIT=0",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait0/trace.csv",
+        "+MEM0=0",
+        "+MEM1=0",
+        "+IRQ=1",
+        "+HANDLER=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/handler.hex",
+        "+HANDLER_COUNT=2",
+        "+TRIGGER=80000020",
+        "+IRQ_END=800000a0"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait0",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait0/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait0/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait0",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait0/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait1/coverage",
+        "-covtest",
+        "interrupt_wait1",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait1/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/reference.hex",
+        "+COUNT=42",
+        "+DONE=800000a4",
+        "+WAIT=1",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait1/trace.csv",
+        "+MEM0=0",
+        "+MEM1=0",
+        "+IRQ=1",
+        "+HANDLER=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/handler.hex",
+        "+HANDLER_COUNT=2",
+        "+TRIGGER=80000020",
+        "+IRQ_END=800000a0"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait1",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait1/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait1/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait1",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait1/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait4/coverage",
+        "-covtest",
+        "interrupt_wait4",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait4/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/reference.hex",
+        "+COUNT=42",
+        "+DONE=800000a4",
+        "+WAIT=4",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait4/trace.csv",
+        "+MEM0=0",
+        "+MEM1=0",
+        "+IRQ=1",
+        "+HANDLER=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/handler.hex",
+        "+HANDLER_COUNT=2",
+        "+TRIGGER=80000020",
+        "+IRQ_END=800000a0"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait4",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait4/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait4/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait4",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait4/imc_console.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait9/coverage",
+        "-covtest",
+        "interrupt_wait9",
+        "-top",
+        "tb_checklist",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait9/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl",
+        "+HEX=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/program.hex",
+        "+REFERENCE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/reference.hex",
+        "+COUNT=42",
+        "+DONE=800000a4",
+        "+WAIT=9",
+        "+TRACE=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait9/trace.csv",
+        "+MEM0=0",
+        "+MEM1=0",
+        "+IRQ=1",
+        "+HANDLER=/home/iiita/Documents/raghulcj/g4_12_20261112_000351/programs/interrupt/handler.hex",
+        "+HANDLER_COUNT=2",
+        "+TRIGGER=80000020",
+        "+IRQ_END=800000a0"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait9",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait9/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait9/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait9",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/interrupt_wait9/imc_console.log"
+    },
+    {
+      "argv": [
+        "python3",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/sources/ips/Verification/gen_tb1_hex.py"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/legacy_programs",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/legacy_programs/generation.log"
+    },
+    {
+      "argv": [
+        "/home/install/XCELIUM2409/tools/bin/xrun",
+        "-64bit",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "-access",
+        "+rwc",
+        "-coverage",
+        "all",
+        "-covworkdir",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/legacy_tb1/coverage",
+        "-covtest",
+        "legacy_tb1",
+        "-top",
+        "core_interrupt_tb",
+        "-f",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/legacy_tb1/sources.f",
+        "-l",
+        "xrun.log",
+        "-input",
+        "waves.tcl"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/legacy_tb1",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/legacy_tb1/console.log"
+    },
+    {
+      "argv": [
+        "/home/install/VMANAGER2409/bin/imc",
+        "-exec",
+        "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/legacy_tb1/report.tcl",
+        "-logfile",
+        "imc.log"
+      ],
+      "cwd": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/legacy_tb1",
+      "log": "/home/iiita/Documents/raghulcj/g4_12_20261112_000351/results/legacy_tb1/imc_console.log"
+    }
+  ],
+  "tool_version": "TOOL:\txrun(64)\t24.09-s001",
+  "input_hash_mismatches": [],
+  "finished_utc": "2026-11-11T18:28:23.064277Z"
+}

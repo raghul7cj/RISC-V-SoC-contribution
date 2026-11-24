@@ -1,0 +1,35 @@
+
+ Xcrg Functional Coverage Report 
+
+ // To generate a more detailed report in html format, please run xcrg -dir <database> -report_format html -report_dir <dir>
+ // This is a text report also in CSV format. By exporting to Excel and using , as the delimiter, the data can be split into individual rows and columns
+ // This report contains 3 sections, Total Summary, CoverGroups Summary and CoverPoint Tables sections 
+ // In order to navigate to a CoverPoint's Table, the TableTag printed for the respective covergroup/instance can be grepped in this report
+ // For example, if covergroup name is g1 and coverpoint is cp1, the TableTag to go to the Group's CoverPoint Table summary is g1_cp1 
+ // For example, if covergroup name is g1, instance name is i1, coverpoint is cp1, the TableTag to go to the Instance's CoverPoint Table summary is g1_i1_cp1 
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: Total Summary ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+   Date             :, 11/13/26 01:40:44 India Standard Time
+   User             :, cj
+   Version          :, Vivado Simulator Coverage Report 2022.2
+   Command Line     :, C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xcrg.exe -dir ./xsim.covdb -report_dir ./func_coverage_report -report_format all -log xcrg_func.log 
+   Number of Tests  :, 1
+
+   Coverage Score            :, 100
+   Total Insts Score         :, 100
+   Total no of Cover Groups  :, 13
+   Total no of Instances     :, 5
+
+
+     CgName,                                           Score,      NumInsts,   AvgInstScore,   Weight,     Goal,       Merge Insts,    Get Inst Cov,   Per Inst,   AutoBinMax,     Comment,    
+
+       csr_trap_coverage_pkg::observed_corner_coverage::u_status,100         ,1           ,100             ,1           ,100         ,0               ,0               ,1           ,64              ,            ,
+       csr_trap_coverage_pkg::observed_corner_coverage::u_metadata,100         ,1           ,100             ,1           ,100         ,0               ,0               ,1           ,64              ,            ,
+       csr_trap_coverage_pkg::observed_corner_coverage::u_collision,100         ,1           ,100             ,1           ,100         ,0               ,0               ,1           ,64              ,            ,
+       csr_trap_coverage_pkg::observed_corner_coverage::u_counter,100         ,1           ,100             ,1           ,100         ,0               ,0               ,1           ,64              ,            ,
+       csr_trap_coverage_pkg::observed_corner_coverage::u_reset,100         ,1           ,100             ,1           ,100         ,0               ,0               ,1           ,64              ,            ,
